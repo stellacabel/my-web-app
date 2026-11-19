@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url === '/login') {
     res.end('Login Page\n');
   } else {
-    res.end('Hello, World!\n');
+    res.end('Hello from branch B!\n');
   }
 });
 
